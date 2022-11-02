@@ -2,7 +2,7 @@
 
 - .NET 6 based
 - MS Sql Server based
-- Libraries: EF, Mediatr
+- Libraries: EF, Mediatr, NUnit
 - Security layer is out of scope 
 
 # Configuration
