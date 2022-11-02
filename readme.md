@@ -18,4 +18,4 @@
   Update-Database -StartupProject Sme.BankingApi -Project Sme.BankingApi.Data -Connection "xxxxxx"
 
 # Launch
-- Run Sme.BankingApi project in visual studio
+- Run Sme.BankingApi project in Visual Studio 2022
