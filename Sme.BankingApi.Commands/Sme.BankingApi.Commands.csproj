@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions" Version="0.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sme.BankingApi.Common\Sme.BankingApi.Common.csproj" />
+    <ProjectReference Include="..\Sme.BankingApi.Data\Sme.BankingApi.Data.csproj" />
+    <ProjectReference Include="..\Sme.BankingApi.Services\Sme.BankingApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>
