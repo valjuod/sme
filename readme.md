@@ -16,3 +16,6 @@
    Script-Migration -StartupProject Sme.BankingApi -Project Sme.BankingApi.Data 
 - Or run Update-Database with proper connection string: 
   Update-Database -StartupProject Sme.BankingApi -Project Sme.BankingApi.Data -Connection "xxxxxx"
+
+# Launch
+- Run Sme.BankingApi project in visual studio
